@@ -25,7 +25,7 @@
                     </li>
 
                     <li class="py-2 px-6">
-                        <a href="#">Spil</a>
+                        <a href="games.html">Spil</a>
                     </li>
 
                     <li class="py-2 px-6">
@@ -39,15 +39,18 @@
             </nav>
         </header>
 
-        <section class="hero relative">
+        <section class="relative">
             <img class="w-full block" src="assets/banner_assassins_creed_2.jpg" alt="banner_assassins_creed_2.jpg">
 
             <div class="absolute top-0 text-white bg-neutral-950/[0.85] max-w-64 left-3/4 h-5/6 flex flex-col justify-end p-5">
                 <h1 class="text-3xl">Assassin's Creed</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus animi consectetur, fugit iusto molestias necessitatibus quae reprehenderit sed ullam veniam?</p>
+
+                <a class="mt-3" href="#">
+                    <img src="assets/icon_titlebar.png" alt="icon_titlebar.png">
+                </a>
             </div>
         </section>
-
 
         <main class="relative w-5/6 bg-neutral-50 m-auto -mt-16 p-5">
             <nav class="grid grid-cols-6 gap-4">
@@ -105,7 +108,7 @@
                         <h2 class="text-sky-400 text-2xl font-bold">Mest populære spil</h2>
                     </div>
 
-                    <div class="grid grid-rows-6">
+                    <div class="grid grid-rows-6 [&>*:nth-child(odd)]:bg-neutral-50 [&>*:nth-child(even)]:bg-neutral-200">
                         <div class="flex mt-4 space-x-4 w-full m-auto">
                             <img class="w-28" src="assets/thumb_splintercell.jpg" alt="thumb_splintercell.jpg">
 
@@ -170,7 +173,7 @@
             </section>
 
             <section class="grid grid-cols-3 mt-5 gap-4">
-                <div>
+                <article>
                     <div class="bg-neutral-950 p-4 flex space-x-5 whitespace-nowrap">
                         <img class="w-8" src="assets/icon_titlebar.png" alt="icon_titlebar.png">
                         <h2 class="text-sky-400 text-2xl font-bold">Seneste spilanmeldelse</h2>
@@ -182,9 +185,9 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at beatae dolorem illum itaque, libero molestias nisi nostrum numquam quaerat reiciendis saepe. Aliquam delectus eius esse excepturi exercitationem, expedita facilis harum neque possimus quae tempore?</p>
 
                     <button class="bg-sky-400 my-3 text-white py-2 px-4 rounded-full">Læs mere</button>
-                </div>
+                </article>
 
-                <div>
+                <article>
                     <div class="bg-neutral-950 p-4 flex space-x-5 whitespace-nowrap">
                         <img class="w-8" src="assets/icon_titlebar.png" alt="icon_titlebar.png">
                         <h2 class="text-sky-400 text-2xl font-bold">Seneste artikel</h2>
@@ -196,9 +199,9 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at beatae dolorem illum itaque, libero molestias nisi nostrum numquam quaerat reiciendis saepe. Aliquam delectus eius esse excepturi exercitationem, expedita facilis harum neque possimus quae tempore?</p>
 
                     <button class="bg-sky-400 my-3 text-white py-2 px-4 rounded-full">Læs mere</button>
-                </div>
+                </article>
 
-                <div>
+                <article>
                     <div class="bg-neutral-950 p-4 flex space-x-5 whitespace-nowrap">
                         <img class="w-8" src="assets/icon_titlebar.png" alt="icon_titlebar.png">
                         <h2 class="text-sky-400 text-2xl font-bold">Seneste artikel</h2>
@@ -210,7 +213,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus at beatae dolorem illum itaque, libero molestias nisi nostrum numquam quaerat reiciendis saepe. Aliquam delectus eius esse excepturi exercitationem, expedita facilis harum neque possimus quae tempore?</p>
 
                     <button class="bg-sky-400 my-3 text-white py-2 px-4 rounded-full">Læs mere</button>
-                </div>
+                </article>
             </section>
         </main>
 
